@@ -10,7 +10,7 @@
 
 - type: email
   icon: "fas fa-envelope"
-  url: "mailto:contact@f9.casa"
+  url: "contact@f9.casa"
   noblank: true # open link in current tab
 
 - type: rss
