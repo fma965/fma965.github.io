@@ -35,11 +35,11 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Scott
-  email: admin@f9.casa # change to your email address
+  # email: admin@f9.casa # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/fma965 # change to your Twitter homepage
-    - https://github.com/fma965 # change to your GitHub homepage
+    # - https://github.com/username # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -214,6 +214,11 @@ exclude:
   - purgecss.js
   - rollup.config.js
   - "package*.json"
+  - archive_old
+  - template
+  - reference_files
+  - kubernetes
+  - Dockerfile
 
 jekyll-archives:
   enabled: [categories, tags]
