@@ -1,5 +1,5 @@
 ---
-icon: fas fa-box-open
+icon: mdi mdi-cube-outline
 order: 6
 layout: page
 ---
