@@ -2,12 +2,15 @@
 
 - type: github
   icon: "fab fa-github"
+  url: "https://github.com/fma965"
 
 - type: twitter
   icon: "fa-brands fa-x-twitter"
+  url: "https://x.com/fma965"
 
 - type: email
   icon: "fas fa-envelope"
+  url: "mailto:contact@f9.casa"
   noblank: true # open link in current tab
 
 - type: rss
