@@ -1,6 +1,7 @@
 ---
 icon: fas fa-server
 order: 1
+layout: page
 ---
 
 Here is a summary of my hardware in use for my homelab.
@@ -41,7 +42,7 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 -   **Average Power Consumption:** 80W (100W with PSU loss)
 
 ## Dell Optiplex 3060 Micro (HV1)
-![hv.png](/assets/img/old/hardware/hv.png)
+![hv.png](/assets/img/old/hv.png)
 -   **CPU:** Intel i5-8500T
 -   **RAM:** 40GB 3200mt/s (1x8GB & 1x32GB) DDR4 (will replace the 8GB with another 32GB when needed)
 -   **M.2 Devices**
@@ -52,7 +53,7 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 -   **Idle Power Consumption:** TBC
 
 ## Dell Optiplex 3060 Micro (HV2)
-![hv.png](/assets/img/old/hardware/hv.png)Here is a summary of my hardware in use for my homelab.
+![hv.png](/assets/img/old/hv.png)Here is a summary of my hardware in use for my homelab.
 
 I currently run a Proxmox cluster of 3 Dell Optiplex 3060's that i purchased for cheap on ebay along with a custom built tower running UnRaid as my NAS
 
@@ -90,7 +91,7 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 -   **Average Power Consumption:** 80W (100W with PSU loss)
 
 ## Dell Optiplex 3060 Micro (HV1)
-![hv.png](/assets/img/old/hardware/hv.png)
+![hv.png](/assets/img/old/hv.png)
 -   **CPU:** Intel i5-8500T
 -   **RAM:** 40GB 3200mt/s (1x8GB & 1x32GB) DDR4 (will replace the 8GB with another 32GB when needed)
 -   **M.2 Devices**
@@ -101,7 +102,7 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 -   **Idle Power Consumption:** TBC
 
 ## Dell Optiplex 3060 Micro (HV2)
-![hv.png](/assets/img/old/hardware/hv.png)
+![hv.png](/assets/img/old/hv.png)
 -   **CPU:** Intel i5-8500T
 -   **RAM:** 40GB 3200mt/s (1x8GB & 1x32GB) DDR4 (will replace the 8GB with another 32GB when needed)
 -   **M.2 Devices**
@@ -112,7 +113,7 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 -   **Idle Power Consumption:** TBC
 
 ## Dell Optiplex 3060 Micro (HV3)
-![hv.png](/assets/img/old/hardware/hv.png)
+![hv.png](/assets/img/old/hv.png)
 -   **CPU:** Intel i5-8500T
 -   **RAM:** 40GB 3200mt/s (1x8GB & 1x32GB) DDR4 (will replace the 8GB with another 32GB when needed)
 -   **M.2 Devices**
@@ -124,7 +125,7 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 
 # Network Equipment
 ## GL.iNet GL-MT6000 WiFi 6 Router
-![router.png](/assets/img/old/hardware/router.png)
+![router.png](/assets/img/old/router.png)
 -   **OS:** OpenWRT (https://github.com/pesa1234/MT6000_cust_build)
 
 ## POEPlus S1108GTP-SX-SL
@@ -133,7 +134,7 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 
 # Other Equipment
 ## Cyberpower VP1200ELCD UPS
-![ups.png](/assets/img/old/hardware/ups.png)
+![ups.png](/assets/img/old/ups.png)
 -   **Battery Backup Sockets:** 4x IEC
 -   **Surge Only Sockets:** 4x IEC
 -   **Power Capacity:** 1200VA / 720W
@@ -141,13 +142,13 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 -   **Average Load:** 25%
 
 ## Bambulab A1 3D Printer
-![a1.png](/assets/img/old/hardware/a1.png)
+![a1.png](/assets/img/old/a1.png)
 -   **AMS Lite**
 -   **TP Link Tapo Camera**
 -   **ESPHome Smart Plug**
 
 ## Ricoh SP211 Mono Laser Printer
-![sp211.png](/assets/img/old/hardware/sp211.png)
+![sp211.png](/assets/img/old/sp211.png)
 -   **Connectivity:** USB to CUPS Docker Container on NASkHere is a summary of my hardware in use for my homelab.
 
 I currently run a Proxmox cluster of 3 Dell Optiplex 3060's that i purchased for cheap on ebay along with a custom built tower running UnRaid as my NAS
@@ -186,7 +187,7 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 -   **Average Power Consumption:** 80W (100W with PSU loss)
 
 ## Dell Optiplex 3060 Micro (HV1)
-![hv.png](/assets/img/old/hardware/hv.png)
+![hv.png](/assets/img/old/hv.png)
 -   **CPU:** Intel i5-8500T
 -   **RAM:** 40GB 3200mt/s (1x8GB & 1x32GB) DDR4 (will replace the 8GB with another 32GB when needed)
 -   **M.2 Devices**
@@ -197,7 +198,7 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 -   **Idle Power Consumption:** TBC
 
 ## Dell Optiplex 3060 Micro (HV2)
-![hv.png](/assets/img/old/hardware/hv.png)
+![hv.png](/assets/img/old/hv.png)
 -   **CPU:** Intel i5-8500T
 -   **RAM:** 40GB 3200mt/s (1x8GB & 1x32GB) DDR4 (will replace the 8GB with another 32GB when needed)
 -   **M.2 Devices**
@@ -208,7 +209,7 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 -   **Idle Power Consumption:** TBC
 
 ## Dell Optiplex 3060 Micro (HV3)
-![hv.png](/assets/img/old/hardware/hv.png)
+![hv.png](/assets/img/old/hv.png)
 -   **CPU:** Intel i5-8500T
 -   **RAM:** 40GB 3200mt/s (1x8GB & 1x32GB) DDR4 (will replace the 8GB with another 32GB when needed)
 -   **M.2 Devices**
@@ -220,7 +221,7 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 
 # Network Equipment
 ## GL.iNet GL-MT6000 WiFi 6 Router
-![router.png](/assets/img/old/hardware/router.png)
+![router.png](/assets/img/old/router.png)
 -   **OS:** OpenWRT (https://github.com/pesa1234/MT6000_cust_build)
 
 ## POEPlus S1108GTP-SX-SL
@@ -229,7 +230,7 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 
 # Other Equipment
 ## Cyberpower VP1200ELCD UPS
-![ups.png](/assets/img/old/hardware/ups.png)
+![ups.png](/assets/img/old/ups.png)
 -   **Battery Backup Sockets:** 4x IEC
 -   **Surge Only Sockets:** 4x IEC
 -   **Power Capacity:** 1200VA / 720W
@@ -237,11 +238,11 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 -   **Average Load:** 25%
 
 ## Bambulab A1 3D Printer
-![a1.png](/assets/img/old/hardware/a1.png)
+![a1.png](/assets/img/old/a1.png)
 -   **AMS Lite**
 -   **TP Link Tapo Camera**
 -   **ESPHome Smart Plug**
 
 ## Ricoh SP211 Mono Laser Printer
-![sp211.png](/assets/img/old/hardware/sp211.png)
+![sp211.png](/assets/img/old/sp211.png)
 -   **Connectivity:** USB to CUPS Docker Container on NASHere is a summary of my hardware in use for my homelab.
