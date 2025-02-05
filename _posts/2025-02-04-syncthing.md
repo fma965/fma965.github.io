@@ -2,7 +2,7 @@
 layout: post
 title: "SyncThing continous file synchronization"
 date: 2025-02-05 10:00:00 0000
-categories: homelab services backup
+categories: services backup
 tags: homelab backup syncthing
 
 ---

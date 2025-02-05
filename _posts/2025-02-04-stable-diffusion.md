@@ -2,7 +2,7 @@
 layout: post
 title: "Stable Diffusion - Local AI Image Generation + Forge UI"
 date: 2025-02-05 10:00:00 0000
-categories: homelab services ai
+categories: services ai
 tags: homelab ai stable-diffusion forgeui lora vae textencoders safetensors
 
 ---
