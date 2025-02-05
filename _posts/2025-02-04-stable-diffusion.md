@@ -7,12 +7,9 @@ tags: homelab ai stable-diffusion forgeui lora vae textencoders safetensors
 
 ---
 
-## [Stable Diffusion & Forge UI](https://github.com/grokuku/stable-diffusion)
 https://hub.docker.com/r/holaflenain/stable-diffusion
 
-
-### Info
-For image generation i use the above docker container, this includes Stable Diffusion and many different WebUI's which can be chosen by specifiying a enviroment variable. 
+[Stable Diffusion & Forge UI](https://github.com/grokuku/stable-diffusion) can be used for image generation, the above container includes Stable Diffusion and many different WebUI's which can be chosen by specifiying a enviroment variable. 
 
 I currently run Forge UI.
 WEBUI_VERSION: "02.forge"

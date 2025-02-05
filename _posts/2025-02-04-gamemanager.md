@@ -7,8 +7,7 @@ tags: homelab gaming games homebrew gamemanager
 
 ---
 
-## Game Manager
-This is a custom PHP based application in a Nginx container for custom OBS overlays for special challenges, scoreboards etc.
+Game Manager is a custom PHP based application in a Nginx container for custom OBS overlays for special challenges, scoreboards etc.
 
 It works along side the ws-broadcast docker container to allow easy WebSocket support
 

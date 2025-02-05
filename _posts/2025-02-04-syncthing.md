@@ -7,10 +7,7 @@ tags: homelab backup syncthing
 
 ---
 
-## [Syncthing](https://syncthing.net/)
-
-### Info
-Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Your data is your data alone and you deserve to choose where it is stored, whether it is shared with some third party, and how it’s transmitted over the internet.
+[Syncthing](https://syncthing.net/) is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Your data is your data alone and you deserve to choose where it is stored, whether it is shared with some third party, and how it’s transmitted over the internet.
 
 ~~I have syncthing configured to sync my "appdata" of my Docker Swarm to 2 of my friends home servers, this provides a simple but effective offsite backup solution~~
 

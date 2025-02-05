@@ -7,8 +7,7 @@ tags: homelab home-automation automation homeassistant home-assistant
 
 ---
 
-## [Home Assistant - Home Automation](https://www.home-assistant.io/)
-Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server. 
+[Home Assistant - Home Automation](https://www.home-assistant.io/) Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server. 
 
 ### SSO
 Home Assistant does not support SSO like OAuth or anything so we are using Header Authentication via [https://github.com/BeryJu/hass-auth-header](https://github.com/BeryJu/hass-auth-header) and Proxy Provider in Authentik

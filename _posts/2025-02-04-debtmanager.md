@@ -7,7 +7,6 @@ tags: homelab finance homebrew debtmanager
 
 ---
 
-## Debt Manager
 Debt Manager is a PHP Based application created by myself, not yet available publically, along with a API i use this to automatically track when friends have paid me any money they may owe me.
 
 It uses the webdevops PHP and Nginx container

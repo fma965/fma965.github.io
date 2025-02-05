@@ -7,10 +7,7 @@ tags: homelab database postgres postgresql
 
 ---
 
-## [PostgreSQL](https://www.postgresql.org/)
-
-### Info
-PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
+[PostgreSQL](https://www.postgresql.org/) is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.
 
 This stack also includes pgAdmin which is the most popular and feature rich Open Source administration and development platform for PostgreSQL
 
