@@ -1,5 +1,5 @@
 ---
-icon: fas fa-hard-drive
+icon: mdi mdi-server
 order: 2
 layout: page
 ---

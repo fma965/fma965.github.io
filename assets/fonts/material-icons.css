@@ -12,8 +12,7 @@
   .mdi-set,
   .mdi:before {
     display: inline-block;
-    font: normal normal normal 24px/1 Material Design Icons;
-    font-size: inherit;
+    font: normal normal normal 20px/1 Material Design Icons;
     text-rendering: auto;
     line-height: inherit;
     -webkit-font-smoothing: antialiased;

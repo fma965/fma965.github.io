@@ -1,5 +1,5 @@
 ---
-icon: fas fa-hexagon-nodes
+icon: mdi mdi-kubernetes
 order: 7
 layout: page
 ---

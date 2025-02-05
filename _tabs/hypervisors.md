@@ -1,13 +1,13 @@
 ---
-icon: fas fa-heart-pulse
+icon: mdi mdi-arm-flex
 order: 4
 layout: page
 ---
 
-All 3 of my servers currently run [**Proxmox VE**](https://www.proxmox.com/en/proxmox-ve) as their hypervisor, this allows for advanced functionality like clustering, replication and Proxmox Backup Server
-
 # Proxmox
 Proxmox Virtual Environment is a hyper-converged infrastructure open-source software. It is a hosted hypervisor that can run operating systems including Linux and Windows on x64 hardware.
+
+I have 3 nodes in my [**Proxmox VE**](https://www.proxmox.com/en/proxmox-ve) Cluster, these are all Dell Optiplexes. This allows for advanced functionality like clustering, replication and utilizing Proxmox Backup Server
 
 ## Tips & Tricks
 ### Shrink Virtual Disk on ZFS Volume
