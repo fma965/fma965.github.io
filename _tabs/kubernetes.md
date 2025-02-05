@@ -4,7 +4,6 @@ order: 60
 layout: page
 ---
 
-# Summary 
 I decided to use the following setup for my Kubernetes cluster
 
 - Debian 12

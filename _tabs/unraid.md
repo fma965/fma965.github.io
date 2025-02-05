@@ -6,7 +6,7 @@ layout: page
 
 Below you can find details of everything that is currently running on my Unraid Server. 
 
-For docker containers refer to the [Service Categories](/categories)
+For docker containers refer to [Services](/services)
 
 For details on the hardware refer to [Hardware](/hardware)
 
