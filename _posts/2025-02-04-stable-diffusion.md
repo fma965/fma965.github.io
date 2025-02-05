@@ -4,7 +4,8 @@ title: "Stable Diffusion - Local AI Image Generation + Forge UI"
 date: 2025-02-05 10:00:00 0000
 categories: services ai
 tags: homelab ai stable-diffusion forgeui lora vae textencoders safetensors
-
+image:
+ path: /assets/img/thumbnails/stable-diffusion.webp
 ---
 
 https://hub.docker.com/r/holaflenain/stable-diffusion

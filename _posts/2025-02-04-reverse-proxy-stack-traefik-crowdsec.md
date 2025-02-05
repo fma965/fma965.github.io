@@ -4,7 +4,8 @@ title: "Traefik & Crowdsec - Reverse Proxy Stack"
 date: 2025-02-05 10:00:00 0000
 categories: services networking
 tags: homelab networking proxy traefik crowdsec reverse-proxy
-
+image:
+ path: /assets/img/thumbnails/traefik.webp
 ---
 
 ## Reverse Proxy Stack
