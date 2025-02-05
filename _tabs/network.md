@@ -9,7 +9,6 @@ layout: page
 
 ## Packages
 - [TBC *Blah*]()
-{.links-list}
 
 ## Tips & Tricks
 ### Slow 10Gbe Speed - Asus XG-C100C
