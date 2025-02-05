@@ -1,6 +1,6 @@
 ---
 icon: mdi mdi-network
-order: 5
+order: 20
 layout: page
 ---
 

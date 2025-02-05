@@ -1,6 +1,6 @@
 ---
 icon: mdi mdi-server
-order: 2
+order: 40
 layout: page
 ---
 

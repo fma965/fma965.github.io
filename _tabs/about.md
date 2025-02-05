@@ -1,8 +1,11 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
+icon: mdi mdi-information
 order: 99
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Here is the complete documentation for my homelab, mostly for myself but others may find it useful also!
+
+It includes Kubernetes Manifests and/or Docker Compose examples for services that I am currently running
+
+My Homelab is currently quite small compared to some, but it does what I need 😀.

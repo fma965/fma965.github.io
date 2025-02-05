@@ -1,5 +1,5 @@
 ---
 layout: categories
-icon: fas fa-stream
+icon: mdi mdi-shape-plus
 order: 97
 ---

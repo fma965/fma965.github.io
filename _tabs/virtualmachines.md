@@ -1,6 +1,6 @@
 ---
 icon: mdi mdi-cube-outline
-order: 6
+order: 50
 layout: page
 ---
 
