@@ -13,6 +13,7 @@ layout: page
 {% assign sort_categories = site.categories | sort %}
 
 {% for category in sort_categories %}
+  {% if category_name == 'services' %}
   {% assign category_name = category | first %}
   {% assign posts_of_category = category | last %}
   {% assign first_post = posts_of_category | first %}
@@ -135,4 +136,5 @@ layout: page
 
     {% assign group_index = group_index | plus: 1 %}
   {% endif %}
+{% endif %}
 {% endfor %}
