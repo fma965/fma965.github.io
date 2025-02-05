@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""
+title: "Proxmox Backup Server - Deduplication Proxmox VM/CT Backups"
 date: 2025-02-05 10:00:00 0000
 categories: homelab services backup
 tags: homelab backup proxmox pbs
@@ -8,13 +8,12 @@ tags: homelab backup proxmox pbs
 ---
 
 ## [Proxmox Backup Server](https://www.proxmox.com/en/proxmox-backup-server/overview)
-### Tabs {.tabset}
-#### Info
+### Info
 Proxmox Backup Server is an enterprise backup solution, for backing up and restoring VMs, containers, and physical hosts. By supporting incremental, fully deduplicated backups, Proxmox Backup Server significantly reduces network load and saves valuable storage space. With strong encryption and methods of ensuring data integrity, you can feel safe when backing up data, even to targets which are not fully trusted.
 
 Proxmox Backup Server stores backups for my online services (not mentioned here) aswell as backups of all my important local homelab VM's but not only that but it also stores backups of the /etc and /root folders of all my Proxmox hosts (script below)
 
-#### PVE Host (Linux) Backup Script
+### PVE Host (Linux) Backup Script
 cronjob - runs at midnight each day (hour incremented for each node)
 ```bash
 0 0 * * * /bin/bash /root/pbs-backup.sh > /dev/null 2>&1
