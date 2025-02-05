@@ -8,7 +8,7 @@ layout: page
 - **OpenWRT Version:** X
 
 ## Packages
-- [TBC *Blah*]()
+TBC
 
 ## Tips & Tricks
 ### Slow 10Gbe Speed - Asus XG-C100C

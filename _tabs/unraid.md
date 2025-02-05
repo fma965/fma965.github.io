@@ -6,9 +6,9 @@ layout: page
 
 Below you can find details of everything that is currently running on my Unraid Server. 
 
-For docker containers refer to the [Service Categories](/home)
+For docker containers refer to the [Service Categories](/categories)
 
-For details on the hardware refer to [Hardware](/Hardware)
+For details on the hardware refer to [Hardware](/hardware)
 
 # F9-NAS
 - **Unraid Version:** 7.0.0 
@@ -21,9 +21,9 @@ For details on the hardware refer to [Hardware](/Hardware)
 - [Compose Manager *This plugin installs the docker compose package on you unRAID server and adds a simple manager page to the web ui.*](https://forums.unraid.net/topic/114415-plugin-docker-compose-manager/)
 - [CoreFreq *A CPU low level monitoring software designed for x86_64-Processors*](https://forums.unraid.net/topic/109314-plugin-corefreq/)
 - [Corsair PSU Statistics *Reads the statistics from Corsair PSU's with a USB port and displays them in the dashboard.*](https://forums.unraid.net/topic/86715-corsair-rmi-hxi-axi-psu-statistics-cyanlabss-fork/)
-- [Dynamix Active Streams *Shows in real-time any open SMB, AFP and Plex network streams.*](http://forums.unraid.net/index.php?topic=36543.0)
-- [Dynamix System Buttons *Ddds an one-click button to the header which allows for instant sleep, reboot or shutdown of the system.*](http://forums.unraid.net/index.php?topic=36543.0)
-- [Dynamix System Temperature *Shows in real-time the temperature of the system CPU and motherboard.*](http://forums.unraid.net/index.php?topic=36543.0)
+- [Dynamix Active Streams *Shows in real-time any open SMB, AFP and Plex network streams.*](https://forums.unraid.net/index.php?topic=36543.0)
+- [Dynamix System Buttons *Ddds an one-click button to the header which allows for instant sleep, reboot or shutdown of the system.*](https://forums.unraid.net/index.php?topic=36543.0)
+- [Dynamix System Temperature *Shows in real-time the temperature of the system CPU and motherboard.*](https://forums.unraid.net/index.php?topic=36543.0)
 - [Enhanced Log Viewer *View the system log with highlighted lines. event highlighting and your own colors for each event.*](https://forums.unraid.net/topic/43115-enhanced-log-view-with-lines-highlighted-in-color/)
 - [Fix Commong Problems *Diagnose and suggest fixes for common problems, configuration mistakes, etc.*](https://forums.unraid.net/topic/47266-plugin-ca-fix-common-problems/)
 - [FolderView *Create folders for grouping Dockers and VMs together to help with organization.*](https://forums.unraid.net/topic/142782-plugin-folderview/)
