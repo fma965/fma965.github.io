@@ -4,7 +4,8 @@ title: "Proxmox Backup Server - Deduplication Proxmox VM/CT Backups"
 date: 2025-02-05 10:00:00 0000
 categories: services backup
 tags: homelab backup proxmox pbs
-
+image:
+ path: /assets/img/thumbnails/proxmox-backup-server.webp
 ---
 
 [Proxmox Backup Server](https://www.proxmox.com/en/proxmox-backup-server/overview) is an enterprise backup solution, for backing up and restoring VMs, containers, and physical hosts. By supporting incremental, fully deduplicated backups, Proxmox Backup Server significantly reduces network load and saves valuable storage space. With strong encryption and methods of ensuring data integrity, you can feel safe when backing up data, even to targets which are not fully trusted.

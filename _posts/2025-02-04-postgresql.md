@@ -4,7 +4,8 @@ title: "PostgreSQL - Database Engine"
 date: 2025-02-05 10:00:00 0000
 categories: services database
 tags: homelab database postgres postgresql
-
+image:
+ path: /assets/img/thumbnails/postgresql.webp
 ---
 
 [PostgreSQL](https://www.postgresql.org/) is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.

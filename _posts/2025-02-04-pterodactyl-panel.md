@@ -4,7 +4,8 @@ title: "Pterodactyl Panel - Manage game servers for various games easily"
 date: 2025-02-05 10:00:00 0000
 categories: services gaming
 tags: homelab gaming games pterodactyl
-
+image:
+ path: /assets/img/thumbnails/pterodactyl.webp
 ---
 
 Pterodactyl® is a free, open-source game server management panel built with PHP, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while exposing a beautiful and intuitive UI to end users.
