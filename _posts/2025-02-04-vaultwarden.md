@@ -4,7 +4,8 @@ title: "VaultWarden - Self Hosted Password Management with 2FA And Bitwarden Cli
 date: 2025-02-05 10:00:00 0000
 categories: services security
 tags: homelab security password-management password 2fa bitwarden vaultwarden
-
+image:
+ path: /assets/img/thumbnails/vaultwarden.webp
 ---
 
 [Vaultwarden - Password Manager](https://github.com/dani-garcia/vaultwarden) is an alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal.
