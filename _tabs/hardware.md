@@ -4,19 +4,15 @@ order: 10
 layout: page
 ---
 
-Here is a summary of my hardware in use for my homelab.
+Below is a detailed overview of all the hardware currently used in my homelab, from servers to printers.
 
-I currently run a Proxmox cluster of 3 Dell Optiplex 3060's that i purchased for cheap on ebay along with a custom built tower running UnRaid as my NAS
+The main devices in my homelab are
 
-The NAS system is a custom built PC using consumer parts, recently i replaced the aging X299 platform with a AMD AM4 based one.
+- Custom Built [Unraid](/tags/unraid) Powered Server (NAS)
+- 3x Dell Optiplex 3060's as a [Proxmox](/tags/proxmox) Cluster
+- 8 Port POE 2.5gbe Switch with x1 10gbe SFP+
 
-I saw a good deal on 2 Optiplex 3060 Micro's from ebay which i couldn't ignore so i decided to cluster these 2 systems together using Proxmox. 
-![image.png](/assets/img/old/image.png)
-
-After a few months I grabbed another Optiplex 3060 making my cluster Proxmox cluster consist of 3 Dell Optiplex 3060's
-
-# Servers
-
+The "NAS" system has the following specification
 ## NAS Server - Custom Build
 ![nas.png](/assets/img/old/nas.png)
 -   **CPU:** AMD Ryzen 5 5500GT
@@ -41,7 +37,10 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 -   **Case:** Fractal Design Define R5
 -   **Average Power Consumption:** 80W (100W with PSU loss)
 
-## Dell Optiplex 3060 Micro (HV1)
+It's main purpose is for Media Storage, Backups, CCTV Recording and AI
+
+In addition to the main "NAS" system I also have a 3 node Proxmox cluster, all 3 nodes are identical in specification currently.
+## Dell Optiplex 3060 Micro (HV1, HV2 and HV3)
 ![hv.png](/assets/img/old/hv.png)
 -   **CPU:** Intel i5-8500T
 -   **RAM:** 40GB 3200mt/s (1x8GB & 1x32GB) DDR4 (will replace the 8GB with another 32GB when needed)
@@ -52,36 +51,18 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
     -   Intel Data Center D3-S4510 480GB SSD (Proxmox Host)
 -   **Idle Power Consumption:** TBC
 
-## Dell Optiplex 3060 Micro (HV2)
-![hv.png](/assets/img/old/hv.png)
--   **CPU:** Intel i5-8500T
--   **RAM:** 40GB 3200mt/s (1x8GB & 1x32GB) DDR4 (will replace the 8GB with another 32GB when needed)
--   **M.2 Devices**
-    -   Toshiba XG6 256GB NVMe SSD
-    -   A+E 2.5G Ethernet Adapter (Realtek 8125B)
--   **SATA SSDs**
-    -   Intel Data Center D3-S4510 480GB SSD (Proxmox Host)
--   **Idle Power Consumption:** TBC
+This Proxmox cluster mostly runs a Kubernetes cluster and a few other VM's such as Home Assistant, for more details check out the [Virtual Machines](/virtualmachines) and [Kubernetes](/kubernetes) pages.
 
-## Dell Optiplex 3060 Micro (HV3)
-![hv.png](/assets/img/old/hv.png)
--   **CPU:** Intel i5-8500T
--   **RAM:** 40GB 3200mt/s (1x8GB & 1x32GB) DDR4 (will replace the 8GB with another 32GB when needed)
--   **M.2 Devices**
-    -   Toshiba XG6 256GB NVMe SSD
-    -   A+E 2.5G Ethernet Adapter (Realtek 8125B)
--   **SATA SSDs**
-    -   Intel Data Center D3-S4510 480GB SSD (Proxmox Host)
--   **Idle Power Consumption:** TBC
+As for additional equipment, I don't currently have anything special, just a few basic things which are listed below.
 
-# Network Equipment
 ## GL.iNet GL-MT6000 WiFi 6 Router
 ![router.png](/assets/img/old/router.png)
 -   **OS:** OpenWRT (https://github.com/pesa1234/MT6000_cust_build)
+-   Many firewall rules and VLANs setup to isolate and segregate the network for security.
 
 ## POEPlus S1108GTP-SX-SL
 -   **2.5Gbe Ports:** 8x RJ45 with POE
--   **10Gbe Ports:** 1x SFP+ with 10Gbe SFP+ RJ45 module
+-   **10Gbe Ports:** 1x SFP+ with 10Gbe SFP+ RJ45 module (connected to my NAS)
 
 # Other Equipment
 ## Cyberpower VP1200ELCD UPS
@@ -91,6 +72,7 @@ After a few months I grabbed another Optiplex 3060 making my cluster Proxmox clu
 -   **Power Capacity:** 1200VA / 720W
 -   **Estimated Runtime:** 40 Minutes
 -   **Average Load:** 25%
+-   Configured in Unraid with NUT (Network UPS Tools)
 
 ## Bambulab A1 3D Printer
 ![a1.png](/assets/img/old/a1.png)
