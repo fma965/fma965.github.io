@@ -1,0 +1,272 @@
+---
+layout: post
+title: "Stable Diffusion - Local AI Image Generation + Forge UI"
+date: 2025-02-05 10:00:00 0000
+categories: homelab services ai
+tags: homelab ai stable-diffusion forgeui lora vae textencoders safetensors
+
+---
+
+## [Stable Diffusion & Forge UI](https://github.com/grokuku/stable-diffusion)
+https://hub.docker.com/r/holaflenain/stable-diffusion
+
+
+### Info
+For image generation i use the above docker container, this includes Stable Diffusion and many different WebUI's which can be chosen by specifiying a enviroment variable. 
+
+I currently run Forge UI.
+WEBUI_VERSION: "02.forge"
+
+### Stable Diffusion Models
+I currently have the following models installed
+
+- alereal_v7.safetensors
+- cyberrealisticPony_v7.safetensors
+- flux1-dev-bnb_nf4.safetensors
+- flux1-dev-fp8-e4m3fn.safetensors
+- flux1-schnell-bnb-nf4.safetensors
+- realisticVisionV60B1_v51HyperVAE.safetensors
+- redcraftCADSUpdatedJan22_newREVEAL_1219711.safetensors
+
+### SFW LORA's
+I currently have the following LORA's installed
+
+- 1660259750590797264.safetensors
+- 1dkXLP.safetensors
+- 2000sAnalogCore_1181174.safetensors
+- 2020s_Sci-Fi_Movie_946375.safetensors
+- 3D_Cartoon_Vision_flux_v1_655718.safetensors
+- 3D_Flux_Style_686003.safetensors
+- 3D_render_flux_744013.safetensors
+- 3dasset_1094445.safetensors
+- 90s_hacking_681614.safetensors
+- 9mix_982669.safetensors
+- aespakarina-v011.safetensors
+- aesthetic2-cdo-0.5_654343.safetensors
+- aiai-G&A-Flux-Dev-v3_736543.safetensors
+- aidmaAbadonedHorror-FLUX-V0.1_791942.safetensors
+- aidmaFemaleCosplay-FLUX-JOY-V0.1_826359.safetensors
+- aidmaGTA6-FLUX-V0.1_685253.safetensors
+- aidmaHalloweenBoost-FLUX-withoutCaption-v0.2_865791.safetensors
+- aidmaMJ6.1-FLUX-v0.5.safetensors
+- aidmaMrBeastThumbnail-FLUX-V0.1_677801.safetensors
+- aidmaOnceHuman-FLUX-V0.1_640989.safetensors
+- aidmaPonyStyle-FLUX-V0.1_720439.safetensors
+- aidmaRealisticPeoplePhotograph-FLUX-V0.2_822008.safetensors
+- aidmaTableTopMiniature-FLUX-V0.1_750916.safetensors
+- Amouranth_Flux.safetensors
+- Analogue Interfaces FLUX_713742.safetensors
+- animal_jobs_flux_685808.safetensors
+- araminta_k_flux_film_foto_637730.safetensors
+- ArcaneFGTNR_994427.safetensors
+- art_deco_flux_5_660485.safetensors
+- ArtDecoVintageFutureFlux_733165.safetensors
+- artilands_720523.safetensors
+- ARWCyberpunkInterior.safetensors
+- ARWgameroomconcept.safetensors
+- Ascii_Art-Flux_902495.safetensors
+- belleDelphineFlux.safetensors
+- Breakcore_Style-Flux_902953.safetensors
+- bustyFC-2.1_638177.safetensors
+- c0l0ringb00k_Flux_v1_renderartist_797371.safetensors
+- cad_796709.safetensors
+- cargirl_dead_ahead.safetensors
+- cargirlv1.safetensors
+- ChiaroscuroFantasyAnimeFlux_755153.safetensors
+- Cinematic_Lego_701235.safetensors
+- CinematicStyleFlux_v1_766704.safetensors
+- ck-nc-pastel-cyberpunk_916097.safetensors
+- Colorful_Marbled_Paper_FLUX_755403.safetensors
+- Copax_XPlus_2_1017374.safetensors
+- CorporateFlatVectorStyle_698736.safetensors
+- cosplay_flux_V1_812353.safetensors
+- CPA_661056.safetensors
+- CrunchyBanana_FLUX_kaley_cuoco_ver2_1062000.safetensors
+- Cute_3d_Cartoon_Flux_673028.safetensors
+- CuteLogoMaker_714239.safetensors
+- Cyber_Background_755633.safetensors
+- Cyber_Room.safetensors
+- CyberfleshmutantFlux2-000004_851748.safetensors
+- cyberpunk style v3_1040354.safetensors
+- cyberpunk_noir_flux_659885.safetensors
+- CyberPunkFlux_723013.safetensors
+- cybervehiclev4.safetensors
+- Cynthia3DProduct_902632.safetensors
+- D-ART-Flux1_1142026.safetensors
+- Dark Beauty - FLUX_V0.1_900107.safetensors
+- dark_fantasy_flux_652577.safetensors
+- delicious food_Flux_Lora_v1.0_733582.safetensors
+- DI_Belle_Delphine_pony.safetensors
+- DI_belle_delphine_v1.safetensors
+- Disney-Studios-Flux-000008_652796.safetensors
+- DistantFutureFluxV2-000013_911579.safetensors
+- DreamArtFluxV1.0_679752.safetensors
+- dvr-leather-flux_696886.safetensors
+- dvr-pixel-flux_963822.safetensors
+- Dystopian_Style_686039.safetensors
+- DystopianFluxV1C_684845.safetensors
+- elicuthbert_local_flux_1_standard-000035_795329.safetensors
+- Em1ru_825382.safetensors
+- Emiru_v1.safetensors
+- EmiruPonyV2.safetensors
+- Environment - StarWars.safetensors
+- EnvyFluxInkSwirl01_672662.safetensors
+- explosion style v1_802269.safetensors
+- Fantasy_Weaponry_FLUX_769584.safetensors
+- Female_Archeotypes_-_E-Girl_968301.safetensors
+- FF.102.colossusProjectXLSFW_49bExperimental.LORA.safetensors
+- FFLightning_716905.safetensors
+- figma.safetensors
+- first_person_pov_v1_685624.safetensors
+- flaming-flux_852470.safetensors
+- flat_colour_anime_style_v3.4_752651.safetensors
+- flux-1-lora-flyway-3d-icon-v1-000014_925164.safetensors
+- flux-fluidart-lora-v1_636057.safetensors
+- FLUX-Jisoo_1113893.safetensors
+- FLUX.1-Turbo-Alpha.safetensors
+- flux.1_lora_flyway_doodle-poster_835443.safetensors
+- flux.1_lora_flyway_Hyper-Illustration_v1.0_879666.safetensors
+- Flux.Emiru2.safetensors
+- Flux.JennieBlackpink-step00000300_709180.safetensors
+- Flux1 - vanta_black_V2.0_714569.safetensors
+- FLUX___Illuminating_Industrial_Design_for_Electronic_Products_707093.safetensors
+- Flux__Semi-realistic_art_style-000004_760556.safetensors
+- flux_egirl_lora_647916.safetensors
+- Flux_Hidden-Worlds_v2_1230225.safetensors
+- Flux_HonkaiStarRail_SilverWolf_cosplay_costume_v1_1226452.safetensors
+- FLUX_HQVILLASVIP5_LoRA_1198546.safetensors
+- Flux_Pixar_691470.safetensors
+- flux_s_MinimalDesign_909646.safetensors
+- FluxBossBattle_725977.safetensors
+- FluxD_Pokimane_v1_.safetensors
+- FluxDFaeTasticDetails_634871.safetensors
+- FluxJinxV2_991624.safetensors
+- FluxMythP0rtr4itStyle_666431.safetensors
+- FluxProtectorsOfNature_741080.safetensors
+- FluxWeaponSwordShield_706949.safetensors
+- Futurama_style_flux_v2_933390.safetensors
+- Ghost_in_Shell_1995_Flux_720373.safetensors
+- Glitch_720147.safetensors
+- Glowing__Light_Particles_Flux_v2-000005_940512.safetensors
+- Gothic_haunted_world_flux_5_660412.safetensors
+- graffiti-style-v1.1_844776.safetensors
+- Graffiti_Logo_Style_Flux_843763.safetensors
+- Graphic_T-Shirts-000012_733639.safetensors
+- gun style v1_785184.safetensors
+- Hand v2_718511.safetensors
+- HGHD SPRITES_epoch_3_832684.safetensors
+- hkstyleV5.safetensors
+- Holographic_Clothes_682551.safetensors
+- hyper-detail-illustration_746786.safetensors
+- HyperSD-Accelerator-FLUX-PAseerV2_820253.safetensors
+- ideogram1024-000006_784270.safetensors
+- IKEA_Instructions_Style_FLUX_794040.safetensors
+- Inkpunk_Flux_649642.safetensors
+- irzm_flux_EliPot_680404.safetensors
+- JedToon_epoch_6_702755.safetensors
+- Jenna_Ortega_Large_FLUX_v2_merger_19_40_49_61_03_02_03_02.safetensors
+- jinx-arcane-league-of-legends-season-1-v5_917392.safetensors
+- Jinx_Vi_Caitlyn_Mel_from_Arcane_mx_700150.safetensors
+- JJsCyberpunk_Flux_1190663.safetensors
+- Lisa.safetensors
+- logomaker1024-000008_760281.safetensors
+- lora.TA_trained_1160430.safetensors
+- Magic of Art (FLUX)_775633.safetensors
+- Mario_style_929280.safetensors
+- Marvel_Rival-000001_759013.safetensors
+- metalSuitFlux_644401.safetensors
+- MIAOKA_KDA_XL.safetensors
+- Midjourney_Dreamlike_Fantasy_FLUX_LoRA_674434.safetensors
+- midjourney_whisper_flux_lora_v01_645607.safetensors
+- midjourney_whisper_innocent_eyes_v01_732839.safetensors
+- milton-glaser-flux1-dev-v1-000076_909084.safetensors
+- money2_test_flux_649894.safetensors
+- MoriiMee_Gothic_Niji_Style_FLUX_1094944.safetensors
+- N64_Game_Style_F1D_658083.safetensors
+- Neon_Cyberpunk_Cyberbody_FLUX_677078.safetensors
+- Neon_Cyberpunk_Cyberspace_FLUX_679489.safetensors
+- Neon_Cyberpunk_Hermetic_Wizard_FLUX_925507.safetensors
+- Neon_Cyberpunk_Papercut_1_FLUX_912297.safetensors
+- New_Fantasy_CoreV4_FLUX_1169167.safetensors
+- ningraphix-000031_659859.safetensors
+- noodlez_flux_718909.safetensors
+- nuclear_hazard_flux_829304.safetensors
+- nwsj_flux0924_794706.safetensors
+- onoff4.safetensors
+- OnoffXL5.14.safetensors
+- openai_V1_825884.safetensors
+- OReilly_Programming_Book_Cover_Parodizer_FLUX-000016_803631.safetensors
+- Paintbrush_833083.safetensors
+- Party_Girls-2_976893.safetensors
+- perfect text title style v2_802315.safetensors
+- perfection style v2d_838603.safetensors
+- Pikachu_692472.safetensors
+- PixarPerfect_3D_Animation_Style_FLUX-000001_900187.safetensors
+- Pixel_Art Flux_829271.safetensors
+- Pokimane_Flux_937693.safetensors
+- PokimaneV4Dogu.safetensors
+- polyhedron_new_skin_v1.1.safetensors
+- Pop_Art_Pusher_627810.safetensors
+- princess_xl_v2.safetensors
+- Ptg_flux_665996.safetensors
+- QuarterJade_flux_v1.0.safetensors
+- ral-drath-flux_783354.safetensors
+- ral-ertmsphr_flux_676806.safetensors
+- ral-faize-flux_804835.safetensors
+- ral-frctlgmtry_flux_720228.safetensors
+- ral-furpirates-flux_762069.safetensors
+- ral-lva-flux_799290.safetensors
+- Real_Aesthetic_Spectrum_890078.safetensors
+- Retro_80s_Computer_Screen_-_Flux_841856.safetensors
+- Retro_Logo_Style_Flux_920704.safetensors
+- RetroAnimeFluxV1.safetensors
+- RFxBeautyU_982992.safetensors
+- Rose Blackpink.safetensors
+- Satin_Schoolgirl_Flux-000004_645843.safetensors
+- savcorp_651881.safetensors
+- Sci-fi_env_flux.safetensors
+- scifi-vehicles-000011.safetensors
+- Scifi_Environment_Concept_Art_Flux_661653.safetensors
+- selfie_poses_769761.safetensors
+- Semi-real_pretty_fantasy_F1_v1.0_660386.safetensors
+- sharp detailed image (foot focus) v1.1_986376.safetensors
+- Simple_Vector_Flux_v2_renderartist_789316.safetensors
+- simpsons-lora-flux-learning-rate-2_672025.safetensors
+- Skybar_Flux_689821.safetensors
+- skylineR34-v1.0.safetensors
+- Smoke Under Water_998407.safetensors
+- Smooth_Mix_-_Flux_v.2_1162520.safetensors
+- SocialMediaPostGenerator_731468.safetensors
+- Space Nebula FLUX_703154.safetensors
+- SpongeBobFlux_786781.safetensors
+- starlight_st4rl1ght_flux_lora_v1_000002400_649261.safetensors
+- StellarBlade_711137.safetensors
+- Surreal_Photo_677021.safetensors
+- Symbiote style v1_967694.safetensors
+- TEST Artistic realism V2 (Flux)_676146.safetensors
+- Text_Logo_-_Style-000004_663085.safetensors
+- Text_Style_Autonomy-000005_796474.safetensors
+- Textimprover-FLUX-V0.4_815815.safetensors
+- The Lord of the Rings style v1_816856.safetensors
+- the matrix style v1.1_785096.safetensors
+- transluminescent_v2_flux_680057.safetensors
+- Unreal Engine Style v2_859901.safetensors
+- Valkyrae_FLUX_v1-merger_40_61_07_03_906671.safetensors
+- VibrantTech3D_v1_769387.safetensors
+- W00lyW0rldFlux-PaliGemma-Longprompt_716786.safetensors
+- Warhammer_Rogue_Trader_Style_flux-000021_644819.safetensors
+- Warm_Cats_flux_000000500_651072.safetensors
+- Youtube_Thumbnail_Generator-000001_1221951.safetensors
+- Youtube_Thumbnails_Flux_745829.safetensors
+- zeekars.safetensors
+- zhibi_flux_738223.safetensors
+- zy_animation_shot_895447.safetensors
+
+### VAE's
+- ae.safetensors
+- sdxl_vae.safetensors
+
+### Text Encoders's
+- clip_l.safetensors
+- t5-v1_1-xxl-encoder-Q5_K_M.safetensors
+- t5xxl_fp16.safetensors
