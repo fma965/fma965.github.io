@@ -4,7 +4,8 @@ title: "Authentik - SSO Identity Provider For All Your Services"
 date: 2025-02-05 10:00:00 0000
 categories: services security
 tags: homelab security password-management password 2fa authentication sso authentik auth
-
+image:
+ path: /assets/img/thumbnails/authentik.webp
 ---
 
 [Authentik - OAuth](https://goauthentik.io/) is an open source Identity Provider focused on flexibility and versatility. You can use authentik in an existing environment to add support for new protocols, implement sign-up/recovery/etc. in your application so you don't have to deal with it, and many other things.

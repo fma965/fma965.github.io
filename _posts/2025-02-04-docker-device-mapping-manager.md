@@ -4,7 +4,8 @@ title: "Device Mapping Manager - Mount Devices In Docker Swarm"
 date: 2025-02-05 10:00:00 0000
 categories: services utility
 tags: homelab utility docker swarm devicemapper device-mapper-manager
-
+image:
+ path: /assets/img/thumbnails/devicemappingmanager.webp
 ---
 [Device Mapping Manager](https://github.com/allfro/device-mapping-manager) maps and enables devices into containers running on docker swarm. It is currently only compatible with linux systems that use cgroup v1 and v2.
 

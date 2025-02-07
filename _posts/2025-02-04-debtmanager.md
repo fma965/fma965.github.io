@@ -4,7 +4,8 @@ title: "Debt Manager - Unreleased custom PHP dashboard for managing debts"
 date: 2025-02-05 10:00:00 0000
 categories: services finance
 tags: homelab finance homebrew debtmanager
-
+image:
+ path: /assets/img/thumbnails/debtmanager.webp
 ---
 
 Debt Manager is a PHP Based application created by myself, not yet available publically, along with a API i use this to automatically track when friends have paid me any money they may owe me.

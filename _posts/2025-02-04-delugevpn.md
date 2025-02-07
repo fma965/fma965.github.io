@@ -4,7 +4,8 @@ title: "DelugeVPN - Deluge torrent client with built in VPN support"
 date: 2025-02-05 10:00:00 0000
 categories: services downloader
 tags: homelab downloader deluge delugevpn
-
+image:
+ path: /assets/img/thumbnails/delugevpn.webp
 ---
 
 ghcr.io/binhex/arch-delugevpn
