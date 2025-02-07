@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Home Assistant - Automate and centralize your smart home"
-date: 2025-02-05 10:00:00 0000
+date: 2025-02-07 20:40:00 0000
 categories: services home-automation
 tags: homelab home-automation automation homeassistant home-assistant
 image:
@@ -45,6 +45,10 @@ remove the b prefix and the ' suffix
 ![ha1.png](/assets/img/old/ha1.png)
 
 ![ha2.png](/assets/img/old/ha2.png)
+
+If you get "Watch was unable to register" when trying to add your Wear OS Device to your Home Assistant instance via a Android phone using the mTLS certificate, try to convert it to a legacy format by using a command like `openssl pkcs12 -legacy -export -out cf-legacy.pfx -inkey cf.key -in cf.pem` note the -legacy argument.
+
+This will make it use `pbeWithSHA1And3-KeyTripleDES-CBC` instead of `AES-256-CBC` which some Wear OS devices seem to have issues with.
 
 ### Addons
 #### [Cloudflared](https://github.com/cloudflare/cloudflared)
