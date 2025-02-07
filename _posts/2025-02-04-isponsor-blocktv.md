@@ -4,7 +4,8 @@ title: "iSponsorBlockTV - Skip Sponsor Segments On Youtube TV Devices Using Spon
 date: 2025-02-05 10:00:00 0000
 categories: services media
 tags: homelab media sponsorblock isponsorblocktv
-
+image:
+ path: /assets/img/thumbnails/isponsorblocktv.webp
 ---
 
 [iSponsorBlockTV](https://github.com/dmunozv04/iSponsorBlockTV) allows you to skip sponsor segments in YouTube videos playing on a YouTube TV device (see below for compatibility details).

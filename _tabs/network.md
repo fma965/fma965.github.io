@@ -4,7 +4,7 @@ order: 20
 layout: page
 ---
 
-# F9-Router
+## F9-Router
 - **OpenWRT Version:** X
 
 ## Packages

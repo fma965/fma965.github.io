@@ -4,7 +4,8 @@ title: "Home Assistant - Automate and centralize your smart home"
 date: 2025-02-05 10:00:00 0000
 categories: services home-automation
 tags: homelab home-automation automation homeassistant home-assistant
-
+image:
+ path: /assets/img/thumbnails/homeassistant.webp
 ---
 
 [Home Assistant - Home Automation](https://www.home-assistant.io/) Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server. 
