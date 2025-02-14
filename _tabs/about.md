@@ -9,3 +9,5 @@ Here is the complete documentation for my homelab, mostly for myself but others 
 It includes Kubernetes Manifests and/or Docker Compose examples for services that I am currently running
 
 My Homelab is currently quite small compared to some, but it does what I need 😀.
+
+Check out my [F9-K3S GitHub Repo](https://github.com/fma965/f9-k3s) for the latest configurations
